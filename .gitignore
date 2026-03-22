@@ -1,3 +1,5 @@
 # Ignore runtime data for local SFT tests
 input_videos/*
 output_frames/*
+*pyc
+.DS_Store

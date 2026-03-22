@@ -1,0 +1,2 @@
+video_id,video_path,scenario,viewpoint,primary_actor,other_actor,language_target,split,active
+clerk_001,input_videos/isaacsim/guide/IMG_0507/clerk.mp4,cafe_simulation,first_person,clerk,customer,en,train,true
