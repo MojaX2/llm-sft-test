@@ -19,21 +19,55 @@
 ├── input_videos/                    # 元動画
 ├── output_frames/                   # 既存のフレーム抽出結果
 ├── data/
-│   ├── metadata.csv                 # 動画IDとパス管理
-│   ├── teacher_raw.jsonl            # 強いモデルの生出力
-│   ├── sft_train.jsonl              # SFT学習データ
-│   ├── sft_valid.jsonl              # SFT検証データ
-│   ├── pred_base.jsonl              # 比較対象モデルの推論結果
-│   ├── pred_ft.jsonl                # 学習済みモデルの推論結果
-│   └── eval_pairwise.jsonl          # GPT評価結果
+│   ├── metadata/
+│   │   ├── video_manifest.csv       # 動画の一覧（実験対象フラグ込み）
+│   │   └── active_videos.txt        # 現在回すvideo_id一覧
+│   ├── ground_truth/
+│   │   ├── raw/                     # GPT-5.4の生出力
+│   │   └── final/                   # 人手レビュー後の確定正解
+│   ├── sft/                         # sm-swift学習データ
+│   ├── predictions/                 # 各モデル推論結果
+│   └── eval/                        # GPT-5.4比較評価結果
 ├── scripts/
 │   ├── 01_build_teacher_data.py     # 動画→thinking/caption生成
 │   ├── 02_make_swift_dataset.py     # sm-swift形式に変換
 │   ├── 03_infer_captions.py         # 各モデルでキャプション生成
 │   └── 04_eval_pairwise.py          # GPTでペア比較評価
 ├── extract_frames_sample.py
-└── REDME.md
+└── README.md
 ```
+
+### 1.1 input_videos の対象動画リスト
+
+現在の対象は `clerk.mp4` です。実験で使う一覧は `data/metadata/video_manifest.csv` で管理します。
+
+`data/metadata/video_manifest.csv`:
+
+```csv
+video_id,video_path,scenario,viewpoint,primary_actor,other_actor,language_target,split,active
+clerk_001,input_videos/clerk.mp4,cafe_simulation,first_person,clerk,customer,en,train,true
+```
+
+補助的に、現在有効なIDのみを `data/metadata/active_videos.txt` に保存します。
+
+```text
+clerk_001
+```
+
+### 1.2 正解データ保存構造（推奨）
+
+- `data/ground_truth/raw/`
+	- GPT-5.4 が最初に生成した生データ（再生成・差分比較用）
+	- 例: `data/ground_truth/raw/clerk_001.json`
+- `data/ground_truth/final/`
+	- 品質確認後に確定した正解データ（学習投入用）
+	- 例: `data/ground_truth/final/clerk_001.json`
+
+保存ポリシー:
+
+- まず `raw` に保存
+- ルールチェック（英語、意図記述、観察ベース）後に `final` へ昇格
+- 学習データ化は `final` のみを入力として使う
 
 ---
 
@@ -64,16 +98,16 @@
 - 最低限: `video_id`, `video_path`
 - 可能なら追加: `domain`, `language`, `duration_sec`
 
-`data/metadata.csv` 例:
+`data/metadata/video_manifest.csv` 例:
 
 ```csv
-video_id,video_path
-clerk_001,input_videos/clerk.mp4
+video_id,video_path,scenario,viewpoint,primary_actor,other_actor,language_target,split,active
+clerk_001,input_videos/clerk.mp4,cafe_simulation,first_person,clerk,customer,en,train,true
 ```
 
 ### 2.2 出力スキーマ（teacher_raw）
 
-`data/teacher_raw.jsonl` の 1 行 1 サンプル:
+`data/ground_truth/raw/teacher_raw.jsonl` の 1 行 1 サンプル:
 
 ```json
 {
