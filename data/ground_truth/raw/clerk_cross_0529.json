@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_cross_0529",
+  "video_path": "input_videos/isaacsim/cross/IMG_0529/clerk.mp4",
+  "thinking": "I face a yellow dining table in a sparse cafe/kitchen area; a female customer sits on the near-right chair beside the table, with cabinets, sink, stove pots, and a refrigerator visible along the left wall. The customer leans forward, places her hands on the tabletop, and pushes herself up from the chair, then turns toward me and steps around the table edge. I remain standing and then move/pan rightward away from the table, while the customer comes close to the camera on the left edge before leaving view. The camera continues toward the back-right partition/corridor area, with the table and chair sliding out of frame and the kitchen fixtures becoming partially occluded by the wall.",
+  "caption": "CLERK: Intent-Action Pair: to leave or reposition toward the back area, I turned right and walked away from the table toward the partitioned corridor. CUSTOMER: Intent-Action Pair: to approach or engage the clerk, she stood up from her chair using the table for support and walked toward the camera from the table.",
+  "language": "en"
+}
