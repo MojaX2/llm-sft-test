@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_cross_0531",
+  "video_path": "input_videos/isaacsim/cross/IMG_0531/clerk.mp4",
+  "caption": "Approaching the dining table, I observe a customer seated at the table, appearing ready to engage in conversation or settle a transaction.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

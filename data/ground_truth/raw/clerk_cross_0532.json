@@ -1,7 +1,6 @@
 {
   "video_id": "clerk_cross_0532",
   "video_path": "input_videos/isaacsim/cross/IMG_0532/clerk.mp4",
-  "thinking": "From a stationary first-person view in a cafe-like room, a female customer sits at the far side of a rectangular wooden table near the kitchenette; chairs surround the table, and cabinets, pots, a sink, range hood, and refrigerator are visible behind her. The customer leans forward over the table, places her hands on it, and rises from the chair while turning her face toward the clerk/camera. She steps closer along the table edge, coming near the left side of the frame, while the clerk begins turning and moving rightward away from the table. The camera continues panning/walking toward the open floor and partition wall, leaving the customer and table mostly out of view and bringing the refrigerator and counter area into clearer view.",
-  "caption": "CLERK: Intent-action pair: to disengage from the table/customer area and move toward the back/workspace, I turned right and walked away toward the partition and kitchen side. CUSTOMER: Intent-action pair: to get the clerk’s attention or approach for service, she pushed off the table, stood up from her chair, faced the clerk, and stepped closer along the table.",
+  "caption": "I move away from the table and head toward the back kitchen area, likely to continue service or prepare something, while the seated customer stands up and turns toward me as if trying to get my attention or follow up on her order.",
   "language": "en"
 }

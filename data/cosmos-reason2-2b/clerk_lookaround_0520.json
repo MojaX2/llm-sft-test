@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_lookaround_0520",
+  "video_path": "input_videos/isaacsim/lookaround/IMG_0520/clerk.mp4",
+  "caption": "The cafe clerk observes the customer seated at the table, noting their posture and any movement toward the counter or seating area.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_cross_0528",
+  "video_path": "input_videos/isaacsim/cross/IMG_0528/clerk.mp4",
+  "caption": "The cafe clerk observes a customer seated at a table, then turns toward the kitchenette area where a refrigerator and stove are located, possibly to retrieve or prepare an item for service.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

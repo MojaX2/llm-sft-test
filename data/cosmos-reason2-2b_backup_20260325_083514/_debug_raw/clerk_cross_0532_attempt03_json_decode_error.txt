@@ -1,0 +1,10 @@
+video_id: clerk_cross_0532
+attempt: 3
+reason: json_decode_error
+finish_reason: stop
+response_text_start
+thinking
+I sit down at the dining table, preparing to serve customers. The table is empty except for chairs, and I’m aware of the kitchenette nearby. I anticipate customers arriving and needing assistance.
+caption
+My intention is to greet customers and offer them drinks or meals. Customer intent is to order food or drinks from the cafe’s offerings.
+response_text_end

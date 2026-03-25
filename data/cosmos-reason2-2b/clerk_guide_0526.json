@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_guide_0526",
+  "video_path": "input_videos/isaacsim/guide/IMG_0526/clerk.mp4",
+  "caption": "Entering the cafe, I greet customers warmly and assist them with inquiries or reservations. Customers arrive to order or settle accounts, and I efficiently manage transactions while welcoming them to sit at the tables.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

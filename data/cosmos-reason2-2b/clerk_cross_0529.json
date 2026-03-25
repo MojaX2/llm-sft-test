@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_cross_0529",
+  "video_path": "input_videos/isaacsim/cross/IMG_0529/clerk.mp4",
+  "caption": "Approaching the customer at the table, I notice they appear to be engaged in conversation, possibly awaiting service or requesting assistance.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

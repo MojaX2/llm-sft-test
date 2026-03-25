@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_wavehands_0515",
+  "video_path": "input_videos/isaacsim/wavehands/IMG_0515/clerk.mp4",
+  "caption": "I’m standing near the entrance of a cafe, watching a customer seated at a table. She’s waving, greeting me politely. I’m ready to greet her warmly, perhaps offering a welcome or assistance.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

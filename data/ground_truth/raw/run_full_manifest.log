@@ -1,158 +1,158 @@
-2026-03-25 07:53:02,281 - INFO - Loaded 26 active video(s) from data/metadata/video_manifest.csv
-2026-03-25 07:53:02,996 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/cross/IMG_0508/clerk.mp4
-2026-03-25 07:53:11,369 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:53:11,378 - INFO - API finish_reason=stop completion_tokens=242
-2026-03-25 07:53:11,378 - INFO - API response: {"thinking":"From a standing first-person view in a cafe-like kitchen/dining area, I face a yellow table with chairs; a female customer sits at the near side, leaning slightly forward with her arms ne
-2026-03-25 07:53:11,378 - INFO - Successfully generated thinking and caption for clerk_cross_0508
-2026-03-25 07:53:11,378 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0508.json
-2026-03-25 07:53:11,847 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0527/clerk.mp4
-2026-03-25 07:53:17,623 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:53:17,623 - INFO - API finish_reason=stop completion_tokens=226
-2026-03-25 07:53:17,623 - INFO - API response: {"thinking":"I face a sparse cafe/kitchen area with a yellow table and chairs on the left, cabinets, sink, stove hood, pots, and a refrigerator along the back wall; a woman customer sits at the table.
-2026-03-25 07:53:17,623 - INFO - Successfully generated thinking and caption for clerk_cross_0527
-2026-03-25 07:53:17,624 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0527.json
-2026-03-25 07:53:18,088 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0528/clerk.mp4
-2026-03-25 07:53:25,780 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:53:25,781 - INFO - API finish_reason=stop completion_tokens=221
-2026-03-25 07:53:25,781 - INFO - API response: {"thinking":"I stand in a kitchen-like cafe area facing a yellow table where a woman customer sits on a wooden chair near the left side of the room; cabinets, pots, a sink, a range hood, and a refrige
-2026-03-25 07:53:25,781 - INFO - Successfully generated thinking and caption for clerk_cross_0528
-2026-03-25 07:53:25,782 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0528.json
-2026-03-25 07:53:26,348 - INFO - Extracted 14 frame(s) from input_videos/isaacsim/cross/IMG_0529/clerk.mp4
-2026-03-25 07:53:33,649 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:53:33,654 - INFO - API finish_reason=stop completion_tokens=220
-2026-03-25 07:53:33,654 - INFO - API response: {"thinking":"I face a yellow dining table in a sparse cafe/kitchen area; a female customer sits on the near-right chair beside the table, with cabinets, sink, stove pots, and a refrigerator visible al
-2026-03-25 07:53:33,654 - INFO - Successfully generated thinking and caption for clerk_cross_0529
-2026-03-25 07:53:33,655 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0529.json
-2026-03-25 07:53:34,153 - INFO - Extracted 14 frame(s) from input_videos/isaacsim/cross/IMG_0530/clerk.mp4
-2026-03-25 07:53:41,596 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:53:41,597 - INFO - API finish_reason=stop completion_tokens=224
-2026-03-25 07:53:41,598 - INFO - API response: {"thinking":"I face a small dining/kitchen area with a yellow table and chairs in the foreground, cabinets, stove hood, pots, kettle, sink, and refrigerator along the back wall; a woman customer sits 
-2026-03-25 07:53:41,598 - INFO - Successfully generated thinking and caption for clerk_cross_0530
-2026-03-25 07:53:41,599 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0530.json
-2026-03-25 07:53:42,078 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0531/clerk.mp4
-2026-03-25 07:53:48,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:53:48,930 - INFO - API finish_reason=stop completion_tokens=195
-2026-03-25 07:53:48,930 - INFO - API response: {"thinking":"I face a yellow dining table in a cafe-like room with wooden flooring, chairs, a counter with pots and kettle, a sink, a refrigerator, and a large partition wall. A female customer seated
-2026-03-25 07:53:48,930 - INFO - Successfully generated thinking and caption for clerk_cross_0531
-2026-03-25 07:53:48,931 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0531.json
-2026-03-25 07:53:49,337 - INFO - Extracted 12 frame(s) from input_videos/isaacsim/cross/IMG_0532/clerk.mp4
-2026-03-25 07:53:56,696 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:53:56,696 - INFO - API finish_reason=stop completion_tokens=237
-2026-03-25 07:53:56,696 - INFO - API response: {"thinking":"From a stationary first-person view in a cafe-like room, a female customer sits at the far side of a rectangular wooden table near the kitchenette; chairs surround the table, and cabinets
-2026-03-25 07:53:56,697 - INFO - Successfully generated thinking and caption for clerk_cross_0532
-2026-03-25 07:53:56,697 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0532.json
-2026-03-25 07:53:58,492 - INFO - Extracted 42 frame(s) from input_videos/isaacsim/guide/IMG_0507/clerk.mp4
-2026-03-25 07:54:11,013 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:54:11,014 - INFO - API finish_reason=stop completion_tokens=229
-2026-03-25 07:54:11,014 - INFO - API response: {"thinking":"I move down a narrow room with white walls and wood flooring toward a woman customer standing against the right wall; she faces me and briefly raises one hand in a small wave or signal. I
-2026-03-25 07:54:11,014 - INFO - Successfully generated thinking and caption for clerk_guide_0507
-2026-03-25 07:54:11,015 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0507.json
-2026-03-25 07:54:12,539 - INFO - Extracted 35 frame(s) from input_videos/isaacsim/guide/IMG_0522/clerk.mp4
-2026-03-25 07:54:21,582 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:54:21,582 - INFO - API finish_reason=stop completion_tokens=224
-2026-03-25 07:54:21,582 - INFO - API response: {"thinking":"I move down a long open room with wood flooring and white walls toward a woman standing against the right wall; she stays mostly still, facing slightly left, with one brief hand movement 
-2026-03-25 07:54:21,582 - INFO - Successfully generated thinking and caption for clerk_guide_0522
-2026-03-25 07:54:21,583 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0522.json
-2026-03-25 07:54:22,630 - INFO - Extracted 28 frame(s) from input_videos/isaacsim/guide/IMG_0523/clerk.mp4
-2026-03-25 07:54:30,306 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:54:30,308 - INFO - API finish_reason=stop completion_tokens=184
-2026-03-25 07:54:30,308 - INFO - API response: {"thinking":"I move forward through a sparse cafe-like room with white walls and wood flooring, initially facing a blank wall and then revealing a woman standing against the right wall. She remains ne
-2026-03-25 07:54:30,308 - INFO - Successfully generated thinking and caption for clerk_guide_0523
-2026-03-25 07:54:30,309 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0523.json
-2026-03-25 07:54:31,154 - INFO - Extracted 21 frame(s) from input_videos/isaacsim/guide/IMG_0524/clerk.mp4
-2026-03-25 07:54:38,927 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:54:38,928 - INFO - API finish_reason=stop completion_tokens=228
-2026-03-25 07:54:38,928 - INFO - API response: {"thinking":"I face a mostly empty room with wood flooring and white walls, where a single female customer stands against the right wall; I move steadily closer while she shifts her legs and keeps her
-2026-03-25 07:54:38,928 - INFO - Successfully generated thinking and caption for clerk_guide_0524
-2026-03-25 07:54:38,929 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0524.json
-2026-03-25 07:54:40,037 - INFO - Extracted 29 frame(s) from input_videos/isaacsim/guide/IMG_0525/clerk.mp4
-2026-03-25 07:54:48,026 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:54:48,027 - INFO - API finish_reason=stop completion_tokens=199
-2026-03-25 07:54:48,027 - INFO - API response: {"thinking":"I move through a sparse cafe-like room with wood flooring and white walls, approaching a woman standing against the right wall with her arms crossed. She uncrosses her arms, gestures ligh
-2026-03-25 07:54:48,027 - INFO - Successfully generated thinking and caption for clerk_guide_0525
-2026-03-25 07:54:48,027 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0525.json
-2026-03-25 07:54:48,895 - INFO - Extracted 22 frame(s) from input_videos/isaacsim/guide/IMG_0526/clerk.mp4
-2026-03-25 07:54:56,075 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:54:56,077 - INFO - API finish_reason=stop completion_tokens=228
-2026-03-25 07:54:56,077 - INFO - API response: {"thinking":"I move down a narrow room with wood flooring and white walls toward a woman standing along the right wall, while the left side gradually reveals a yellow table, matching chairs, cabinets,
-2026-03-25 07:54:56,077 - INFO - Successfully generated thinking and caption for clerk_guide_0526
-2026-03-25 07:54:56,079 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0526.json
-2026-03-25 07:54:56,783 - INFO - Extracted 19 frame(s) from input_videos/isaacsim/lookaround/IMG_0516/clerk.mp4
-2026-03-25 07:55:03,081 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:55:03,082 - INFO - API finish_reason=stop completion_tokens=206
-2026-03-25 07:55:03,083 - INFO - API response: {"thinking":"I move forward through a long, bright cafe room toward a yellow rectangular table on the left where a single seated woman waits quietly. As I get closer and angle left, more of the kitche
-2026-03-25 07:55:03,083 - INFO - Successfully generated thinking and caption for clerk_lookaround_0516
-2026-03-25 07:55:03,084 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0516.json
-2026-03-25 07:55:03,886 - INFO - Extracted 23 frame(s) from input_videos/isaacsim/lookaround/IMG_0517/clerk.mp4
-2026-03-25 07:55:12,887 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:55:12,887 - INFO - API finish_reason=stop completion_tokens=213
-2026-03-25 07:55:12,887 - INFO - API response: {"thinking":"I move forward down a narrow cafe/kitchen area with white walls and wood flooring, gradually panning left to reveal a yellow rectangular table with several wooden chairs and a seated fema
-2026-03-25 07:55:12,887 - INFO - Successfully generated thinking and caption for clerk_lookaround_0517
-2026-03-25 07:55:12,888 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0517.json
-2026-03-25 07:55:13,658 - INFO - Extracted 22 frame(s) from input_videos/isaacsim/lookaround/IMG_0518/clerk.mp4
-2026-03-25 07:55:21,025 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:55:21,027 - INFO - API finish_reason=stop completion_tokens=228
-2026-03-25 07:55:21,028 - INFO - API response: {"thinking":"I face a sparse cafe/break area with a yellow rectangular table and chairs on the left, a seated female customer at the far side of the table, and a kitchenette with cabinets, sink, kettl
-2026-03-25 07:55:21,028 - INFO - Successfully generated thinking and caption for clerk_lookaround_0518
-2026-03-25 07:55:21,028 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0518.json
-2026-03-25 07:55:21,882 - INFO - Extracted 24 frame(s) from input_videos/isaacsim/lookaround/IMG_0519/clerk.mp4
-2026-03-25 07:55:29,394 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:55:29,395 - INFO - API finish_reason=stop completion_tokens=223
-2026-03-25 07:55:29,395 - INFO - API response: {"thinking":"I face a mostly empty cafe room with a yellow rectangular table and chairs on the left, where one female customer sits quietly near the far side of the table; a kitchenette with sink, cab
-2026-03-25 07:55:29,395 - INFO - Successfully generated thinking and caption for clerk_lookaround_0519
-2026-03-25 07:55:29,395 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0519.json
-2026-03-25 07:55:30,239 - INFO - Extracted 24 frame(s) from input_videos/isaacsim/lookaround/IMG_0520/clerk.mp4
-2026-03-25 07:55:37,684 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:55:37,685 - INFO - API finish_reason=stop completion_tokens=194
-2026-03-25 07:55:37,685 - INFO - API response: {"thinking":"I move slowly from the open floor area toward a yellow table on the left where a single female customer is seated, while the kitchenette with sink, cabinets, stove, pots, and a refrigerat
-2026-03-25 07:55:37,685 - INFO - Successfully generated thinking and caption for clerk_lookaround_0520
-2026-03-25 07:55:37,685 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0520.json
-2026-03-25 07:55:38,682 - INFO - Extracted 28 frame(s) from input_videos/isaacsim/lookaround/IMG_0521/clerk.mp4
-2026-03-25 07:55:47,038 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:55:47,039 - INFO - API finish_reason=stop completion_tokens=203
-2026-03-25 07:55:47,039 - INFO - API response: {"thinking":"I move slowly leftward and closer toward a yellow table in a sparse cafe/kitchen area, bringing a seated female customer into clearer view; behind her are a sink, blue lower cabinets, a r
-2026-03-25 07:55:47,039 - INFO - Successfully generated thinking and caption for clerk_lookaround_0521
-2026-03-25 07:55:47,040 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0521.json
-2026-03-25 07:55:47,876 - INFO - Extracted 19 frame(s) from input_videos/isaacsim/wavehands/IMG_0504/clerk.mp4
-2026-03-25 07:55:56,097 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:55:56,098 - INFO - API finish_reason=stop completion_tokens=215
-2026-03-25 07:55:56,098 - INFO - API response: {"thinking":"I move down a narrow cafe area toward a yellow table on the left where a seated woman customer is visible; the space includes wooden flooring, white walls, yellow chairs, and a back count
-2026-03-25 07:55:56,098 - INFO - Successfully generated thinking and caption for clerk_wavehands_0504
-2026-03-25 07:55:56,099 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0504.json
-2026-03-25 07:55:56,663 - INFO - Extracted 15 frame(s) from input_videos/isaacsim/wavehands/IMG_0506/clerk.mp4
-2026-03-25 07:56:02,284 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:56:02,285 - INFO - API finish_reason=stop completion_tokens=201
-2026-03-25 07:56:02,286 - INFO - API response: {"thinking":"I move forward down a narrow cafe aisle toward a seated female customer at a yellow table on the left; the room has wood flooring, white walls, yellow chairs, and a back counter with cabi
-2026-03-25 07:56:02,286 - INFO - Successfully generated thinking and caption for clerk_wavehands_0506
-2026-03-25 07:56:02,286 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0506.json
-2026-03-25 07:56:02,909 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/wavehands/IMG_0511/clerk.mp4
-2026-03-25 07:56:09,960 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:56:09,961 - INFO - API finish_reason=stop completion_tokens=226
-2026-03-25 07:56:09,961 - INFO - API response: {"thinking":"I move down a narrow cafe area toward a yellow table where a single seated female customer is on the left side of view; the room has wood flooring, white walls, several yellow chairs, and
-2026-03-25 07:56:09,961 - INFO - Successfully generated thinking and caption for clerk_wavehands_0511
-2026-03-25 07:56:09,962 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0511.json
-2026-03-25 07:56:10,624 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/wavehands/IMG_0512/clerk.mp4
-2026-03-25 07:56:17,527 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:56:17,529 - INFO - API finish_reason=stop completion_tokens=222
-2026-03-25 07:56:17,529 - INFO - API response: {"thinking":"I walk down a narrow cafe/kitchen area toward a yellow rectangular table on the left, where a seated female customer is visible beside several wooden chairs; cabinets, a sink, cookware, a
-2026-03-25 07:56:17,529 - INFO - Successfully generated thinking and caption for clerk_wavehands_0512
-2026-03-25 07:56:17,530 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0512.json
-2026-03-25 07:56:18,183 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/wavehands/IMG_0513/clerk.mp4
-2026-03-25 07:56:24,908 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:56:24,910 - INFO - API finish_reason=stop completion_tokens=212
-2026-03-25 07:56:24,910 - INFO - API response: {"thinking":"I move down a narrow room toward a yellow table on the left where a single female customer is seated; the background reveals a kitchenette with blue lower cabinets, a sink, pots, and a ta
-2026-03-25 07:56:24,910 - INFO - Successfully generated thinking and caption for clerk_wavehands_0513
-2026-03-25 07:56:24,910 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0513.json
-2026-03-25 07:56:25,480 - INFO - Extracted 15 frame(s) from input_videos/isaacsim/wavehands/IMG_0514/clerk.mp4
-2026-03-25 07:56:32,590 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:56:32,591 - INFO - API finish_reason=stop completion_tokens=207
-2026-03-25 07:56:32,591 - INFO - API response: {"thinking":"I move down a narrow cafe/kitchen area toward a yellow rectangular table on the left where one female customer is seated alone on the far side. As I approach, more of the kitchen becomes 
-2026-03-25 07:56:32,591 - INFO - Successfully generated thinking and caption for clerk_wavehands_0514
-2026-03-25 07:56:32,592 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0514.json
-2026-03-25 07:56:33,039 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/wavehands/IMG_0515/clerk.mp4
-2026-03-25 07:56:39,448 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
-2026-03-25 07:56:39,449 - INFO - API finish_reason=stop completion_tokens=179
-2026-03-25 07:56:39,449 - INFO - API response: {"thinking":"I move forward down a narrow cafe aisle and angle left toward a yellow table where a seated female customer is on the left side of view. As I get closer, more of the cafe setup appears on
-2026-03-25 07:56:39,449 - INFO - Successfully generated thinking and caption for clerk_wavehands_0515
-2026-03-25 07:56:39,451 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0515.json
-2026-03-25 07:56:39,451 - INFO - Successfully processed 26/26 video(s)
+2026-03-25 08:37:19,507 - INFO - Loaded 26 active video(s) from data/metadata/video_manifest.csv
+2026-03-25 08:37:20,195 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/cross/IMG_0508/clerk.mp4
+2026-03-25 08:37:24,135 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:37:24,145 - INFO - API finish_reason=stop completion_tokens=48
+2026-03-25 08:37:24,145 - INFO - API response: I watch as the customer gets up from the table and moves away, apparently preparing to leave the seating area. I then turn and head back toward the kitchen/work area, likely to resume cafe duties afte
+2026-03-25 08:37:24,145 - INFO - Successfully generated caption for clerk_cross_0508
+2026-03-25 08:37:24,146 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0508.json
+2026-03-25 08:37:24,612 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0527/clerk.mp4
+2026-03-25 08:37:27,910 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:37:27,911 - INFO - API finish_reason=stop completion_tokens=40
+2026-03-25 08:37:27,911 - INFO - API response: I approach the seated customer at the table as if checking on or serving her, and she responds by leaning forward and standing up from her chair, apparently preparing to leave or follow me.
+2026-03-25 08:37:27,911 - INFO - Successfully generated caption for clerk_cross_0527
+2026-03-25 08:37:27,912 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0527.json
+2026-03-25 08:37:28,375 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0528/clerk.mp4
+2026-03-25 08:37:31,300 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:37:31,301 - INFO - API finish_reason=stop completion_tokens=54
+2026-03-25 08:37:31,301 - INFO - API response: I watch a seated customer at the table as she leans forward and stands up, apparently preparing to leave or move away from the table. I then turn and walk toward the back/kitchen area, likely to conti
+2026-03-25 08:37:31,301 - INFO - Successfully generated caption for clerk_cross_0528
+2026-03-25 08:37:31,302 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0528.json
+2026-03-25 08:37:31,842 - INFO - Extracted 14 frame(s) from input_videos/isaacsim/cross/IMG_0529/clerk.mp4
+2026-03-25 08:37:34,868 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:37:34,869 - INFO - API finish_reason=stop completion_tokens=44
+2026-03-25 08:37:34,869 - INFO - API response: I move away from the table toward the back kitchen area, likely to continue cafe work or prepare something, while the customer stands up from her chair and steps aside as if getting ready to leave or 
+2026-03-25 08:37:34,869 - INFO - Successfully generated caption for clerk_cross_0529
+2026-03-25 08:37:34,871 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0529.json
+2026-03-25 08:37:35,390 - INFO - Extracted 14 frame(s) from input_videos/isaacsim/cross/IMG_0530/clerk.mp4
+2026-03-25 08:37:38,236 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:37:38,238 - INFO - API finish_reason=stop completion_tokens=40
+2026-03-25 08:37:38,238 - INFO - API response: I approach the seated customer as if to assist or check on her, while she stands up from the table and moves past me, appearing ready to leave the seating area or follow me.
+2026-03-25 08:37:38,238 - INFO - Successfully generated caption for clerk_cross_0530
+2026-03-25 08:37:38,240 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0530.json
+2026-03-25 08:37:38,710 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0531/clerk.mp4
+2026-03-25 08:37:41,771 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:37:41,772 - INFO - API finish_reason=stop completion_tokens=39
+2026-03-25 08:37:41,772 - INFO - API response: I approach a seated customer at the table as if checking on or taking their order, and the customer rises from the chair and turns toward me, appearing ready to speak or respond.
+2026-03-25 08:37:41,773 - INFO - Successfully generated caption for clerk_cross_0531
+2026-03-25 08:37:41,773 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0531.json
+2026-03-25 08:37:42,186 - INFO - Extracted 12 frame(s) from input_videos/isaacsim/cross/IMG_0532/clerk.mp4
+2026-03-25 08:37:47,242 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:37:47,243 - INFO - API finish_reason=stop completion_tokens=49
+2026-03-25 08:37:47,243 - INFO - API response: I move away from the table and head toward the back kitchen area, likely to continue service or prepare something, while the seated customer stands up and turns toward me as if trying to get my attent
+2026-03-25 08:37:47,243 - INFO - Successfully generated caption for clerk_cross_0532
+2026-03-25 08:37:47,244 - INFO - Saved result to data/ground_truth/raw/clerk_cross_0532.json
+2026-03-25 08:37:49,071 - INFO - Extracted 42 frame(s) from input_videos/isaacsim/guide/IMG_0507/clerk.mp4
+2026-03-25 08:37:55,127 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:37:55,127 - INFO - API finish_reason=stop completion_tokens=51
+2026-03-25 08:37:55,127 - INFO - API response: I approach the customer as she waits by the wall, and she signals for attention before following me to the table. The customer then sits down and places a small item on the table, while I remain nearb
+2026-03-25 08:37:55,127 - INFO - Successfully generated caption for clerk_guide_0507
+2026-03-25 08:37:55,127 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0507.json
+2026-03-25 08:37:56,620 - INFO - Extracted 35 frame(s) from input_videos/isaacsim/guide/IMG_0522/clerk.mp4
+2026-03-25 08:38:01,983 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:01,984 - INFO - API finish_reason=stop completion_tokens=34
+2026-03-25 08:38:01,984 - INFO - API response: I approach a waiting customer and guide her to the seating area, where she follows along and sits down at the table to settle in and wait for service.
+2026-03-25 08:38:01,984 - INFO - Successfully generated caption for clerk_guide_0522
+2026-03-25 08:38:01,986 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0522.json
+2026-03-25 08:38:03,025 - INFO - Extracted 28 frame(s) from input_videos/isaacsim/guide/IMG_0523/clerk.mp4
+2026-03-25 08:38:07,475 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:07,477 - INFO - API finish_reason=stop completion_tokens=38
+2026-03-25 08:38:07,477 - INFO - API response: I approach and guide a customer through the cafe seating area, likely helping her find a place to sit, while she follows to the table and sits down to wait for service.
+2026-03-25 08:38:07,477 - INFO - Successfully generated caption for clerk_guide_0523
+2026-03-25 08:38:07,477 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0523.json
+2026-03-25 08:38:08,319 - INFO - Extracted 21 frame(s) from input_videos/isaacsim/guide/IMG_0524/clerk.mp4
+2026-03-25 08:38:12,499 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:12,500 - INFO - API finish_reason=stop completion_tokens=52
+2026-03-25 08:38:12,500 - INFO - API response: I approach a customer standing by the wall and guide them toward the seating area, likely helping them get settled at a table. The customer follows along, reaches the chair, and sits down, intending t
+2026-03-25 08:38:12,500 - INFO - Successfully generated caption for clerk_guide_0524
+2026-03-25 08:38:12,500 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0524.json
+2026-03-25 08:38:13,592 - INFO - Extracted 29 frame(s) from input_videos/isaacsim/guide/IMG_0525/clerk.mp4
+2026-03-25 08:38:18,761 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:18,763 - INFO - API finish_reason=stop completion_tokens=41
+2026-03-25 08:38:18,763 - INFO - API response: I approach a waiting customer and guide her toward the seating area, indicating a table for her. The customer follows, pulls out a chair, and sits down to be served or wait there.
+2026-03-25 08:38:18,763 - INFO - Successfully generated caption for clerk_guide_0525
+2026-03-25 08:38:18,763 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0525.json
+2026-03-25 08:38:19,623 - INFO - Extracted 22 frame(s) from input_videos/isaacsim/guide/IMG_0526/clerk.mp4
+2026-03-25 08:38:24,014 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:24,016 - INFO - API finish_reason=stop completion_tokens=46
+2026-03-25 08:38:24,016 - INFO - API response: I guide the customer from the wall area to the table and indicate a chair so she can be seated. The customer follows my direction, approaches the table, and sits down, appearing ready to wait or be se
+2026-03-25 08:38:24,016 - INFO - Successfully generated caption for clerk_guide_0526
+2026-03-25 08:38:24,017 - INFO - Saved result to data/ground_truth/raw/clerk_guide_0526.json
+2026-03-25 08:38:24,717 - INFO - Extracted 19 frame(s) from input_videos/isaacsim/lookaround/IMG_0516/clerk.mp4
+2026-03-25 08:38:28,410 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:28,411 - INFO - API finish_reason=stop completion_tokens=39
+2026-03-25 08:38:28,411 - INFO - API response: I walk over to the seated customer at the table to check on or take her order, while she waits calmly and looks toward me, appearing ready to speak or place an order.
+2026-03-25 08:38:28,411 - INFO - Successfully generated caption for clerk_lookaround_0516
+2026-03-25 08:38:28,411 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0516.json
+2026-03-25 08:38:29,170 - INFO - Extracted 23 frame(s) from input_videos/isaacsim/lookaround/IMG_0517/clerk.mp4
+2026-03-25 08:38:32,935 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:32,936 - INFO - API finish_reason=stop completion_tokens=45
+2026-03-25 08:38:32,936 - INFO - API response: I walk over to check on a seated customer at a table, likely to take or confirm her order, while she stays seated and looks toward me, appearing to wait for service and briefly gesture to get attentio
+2026-03-25 08:38:32,936 - INFO - Successfully generated caption for clerk_lookaround_0517
+2026-03-25 08:38:32,939 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0517.json
+2026-03-25 08:38:33,701 - INFO - Extracted 22 frame(s) from input_videos/isaacsim/lookaround/IMG_0518/clerk.mp4
+2026-03-25 08:38:37,956 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:37,958 - INFO - API finish_reason=stop completion_tokens=32
+2026-03-25 08:38:37,958 - INFO - API response: I walk over to the seated customer to check on or take her order, while she sits waiting at the table and looks toward me expectantly.
+2026-03-25 08:38:37,958 - INFO - Successfully generated caption for clerk_lookaround_0518
+2026-03-25 08:38:37,959 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0518.json
+2026-03-25 08:38:38,821 - INFO - Extracted 24 frame(s) from input_videos/isaacsim/lookaround/IMG_0519/clerk.mp4
+2026-03-25 08:38:42,546 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:42,547 - INFO - API finish_reason=stop completion_tokens=36
+2026-03-25 08:38:42,547 - INFO - API response: I approach the seated customer’s table to check on or take their order, while the customer looks toward me and raises a hand to get my attention and request service.
+2026-03-25 08:38:42,547 - INFO - Successfully generated caption for clerk_lookaround_0519
+2026-03-25 08:38:42,548 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0519.json
+2026-03-25 08:38:43,373 - INFO - Extracted 24 frame(s) from input_videos/isaacsim/lookaround/IMG_0520/clerk.mp4
+2026-03-25 08:38:47,107 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:47,108 - INFO - API finish_reason=stop completion_tokens=37
+2026-03-25 08:38:47,108 - INFO - API response: I walk over to a seated customer at a table to check on or take her order, while she waits and then raises her hand to get my attention and request service.
+2026-03-25 08:38:47,108 - INFO - Successfully generated caption for clerk_lookaround_0520
+2026-03-25 08:38:47,109 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0520.json
+2026-03-25 08:38:48,098 - INFO - Extracted 28 frame(s) from input_videos/isaacsim/lookaround/IMG_0521/clerk.mp4
+2026-03-25 08:38:52,268 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:52,269 - INFO - API finish_reason=stop completion_tokens=40
+2026-03-25 08:38:52,269 - INFO - API response: I walk over to the seated customer’s table to check on or take her order, while she sits waiting and then raises her hand to get my attention and signal that she wants service.
+2026-03-25 08:38:52,269 - INFO - Successfully generated caption for clerk_lookaround_0521
+2026-03-25 08:38:52,270 - INFO - Saved result to data/ground_truth/raw/clerk_lookaround_0521.json
+2026-03-25 08:38:53,077 - INFO - Extracted 19 frame(s) from input_videos/isaacsim/wavehands/IMG_0504/clerk.mp4
+2026-03-25 08:38:56,892 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:38:56,893 - INFO - API finish_reason=stop completion_tokens=49
+2026-03-25 08:38:56,893 - INFO - API response: I walk over to a seated customer at a table and gesture toward the tabletop as if checking on or assisting her order. The customer stays seated, looks at me, and raises a hand to get attention or resp
+2026-03-25 08:38:56,893 - INFO - Successfully generated caption for clerk_wavehands_0504
+2026-03-25 08:38:56,894 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0504.json
+2026-03-25 08:38:57,462 - INFO - Extracted 15 frame(s) from input_videos/isaacsim/wavehands/IMG_0506/clerk.mp4
+2026-03-25 08:39:01,243 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:39:01,244 - INFO - API finish_reason=stop completion_tokens=36
+2026-03-25 08:39:01,244 - INFO - API response: I walk over to a seated customer to check on or take her order, while she repeatedly raises and extends her arm to get my attention and indicate she wants assistance.
+2026-03-25 08:39:01,244 - INFO - Successfully generated caption for clerk_wavehands_0506
+2026-03-25 08:39:01,245 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0506.json
+2026-03-25 08:39:01,909 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/wavehands/IMG_0511/clerk.mp4
+2026-03-25 08:39:04,642 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:39:04,643 - INFO - API finish_reason=stop completion_tokens=38
+2026-03-25 08:39:04,643 - INFO - API response: I walk over to the seated customer’s table to check on or speak with her, while she remains seated waiting and briefly touches her forehead as if thinking or waiting for service.
+2026-03-25 08:39:04,643 - INFO - Successfully generated caption for clerk_wavehands_0511
+2026-03-25 08:39:04,643 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0511.json
+2026-03-25 08:39:05,298 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/wavehands/IMG_0512/clerk.mp4
+2026-03-25 08:39:08,422 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:39:08,423 - INFO - API finish_reason=stop completion_tokens=31
+2026-03-25 08:39:08,423 - INFO - API response: I walk over to the seated customer’s table to assist or take her order, while she remains seated looking toward me and waiting for service.
+2026-03-25 08:39:08,423 - INFO - Successfully generated caption for clerk_wavehands_0512
+2026-03-25 08:39:08,424 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0512.json
+2026-03-25 08:39:09,062 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/wavehands/IMG_0513/clerk.mp4
+2026-03-25 08:39:12,495 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:39:12,495 - INFO - API finish_reason=stop completion_tokens=40
+2026-03-25 08:39:12,495 - INFO - API response: I walk over to a seated customer at a table, apparently to check on or take her order. The customer stays seated, looks toward me, and appears to be waiting for service.
+2026-03-25 08:39:12,495 - INFO - Successfully generated caption for clerk_wavehands_0513
+2026-03-25 08:39:12,495 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0513.json
+2026-03-25 08:39:13,060 - INFO - Extracted 15 frame(s) from input_videos/isaacsim/wavehands/IMG_0514/clerk.mp4
+2026-03-25 08:39:16,287 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:39:16,288 - INFO - API finish_reason=stop completion_tokens=43
+2026-03-25 08:39:16,288 - INFO - API response: I walk over to the seated customer at the table to check on or speak with her, while she stays seated, looks toward me, and appears to be waiting for assistance or responding to my approach.
+2026-03-25 08:39:16,288 - INFO - Successfully generated caption for clerk_wavehands_0514
+2026-03-25 08:39:16,289 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0514.json
+2026-03-25 08:39:16,752 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/wavehands/IMG_0515/clerk.mp4
+2026-03-25 08:39:19,197 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:39:19,198 - INFO - API finish_reason=stop completion_tokens=33
+2026-03-25 08:39:19,198 - INFO - API response: I walk toward a seated customer at a table to check on or take her order, while she raises her hand to get my attention and request service.
+2026-03-25 08:39:19,198 - INFO - Successfully generated caption for clerk_wavehands_0515
+2026-03-25 08:39:19,199 - INFO - Saved result to data/ground_truth/raw/clerk_wavehands_0515.json
+2026-03-25 08:39:19,199 - INFO - Successfully processed 26/26 video(s)

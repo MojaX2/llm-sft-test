@@ -1,0 +1,106 @@
+2026-03-25 08:35:20,539 - INFO - Loaded 26 active video(s) from data/metadata/video_manifest.csv
+2026-03-25 08:35:21,248 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/cross/IMG_0508/clerk.mp4
+2026-03-25 08:35:21,710 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:21,714 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=47
+2026-03-25 08:35:21,714 - INFO - Saved result for clerk_cross_0508
+2026-03-25 08:35:22,182 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0527/clerk.mp4
+2026-03-25 08:35:22,373 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:22,373 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=21
+2026-03-25 08:35:22,374 - INFO - Saved result for clerk_cross_0527
+2026-03-25 08:35:22,812 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0528/clerk.mp4
+2026-03-25 08:35:23,092 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:23,092 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=37
+2026-03-25 08:35:23,093 - INFO - Saved result for clerk_cross_0528
+2026-03-25 08:35:23,613 - INFO - Extracted 14 frame(s) from input_videos/isaacsim/cross/IMG_0529/clerk.mp4
+2026-03-25 08:35:24,508 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:24,509 - INFO - [clerk_cross_0529] finish_reason=stop completion_tokens=26
+2026-03-25 08:35:24,510 - INFO - Saved result for clerk_cross_0529
+2026-03-25 08:35:25,014 - INFO - Extracted 14 frame(s) from input_videos/isaacsim/cross/IMG_0530/clerk.mp4
+2026-03-25 08:35:25,873 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:25,874 - INFO - [clerk_cross_0530] finish_reason=stop completion_tokens=32
+2026-03-25 08:35:25,875 - INFO - Saved result for clerk_cross_0530
+2026-03-25 08:35:26,343 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0531/clerk.mp4
+2026-03-25 08:35:27,142 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:27,143 - INFO - [clerk_cross_0531] finish_reason=stop completion_tokens=27
+2026-03-25 08:35:27,144 - INFO - Saved result for clerk_cross_0531
+2026-03-25 08:35:27,548 - INFO - Extracted 12 frame(s) from input_videos/isaacsim/cross/IMG_0532/clerk.mp4
+2026-03-25 08:35:27,808 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:27,808 - INFO - [clerk_cross_0532] finish_reason=stop completion_tokens=34
+2026-03-25 08:35:27,809 - INFO - Saved result for clerk_cross_0532
+2026-03-25 08:35:29,567 - INFO - Extracted 42 frame(s) from input_videos/isaacsim/guide/IMG_0507/clerk.mp4
+2026-03-25 08:35:31,675 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:31,676 - INFO - [clerk_guide_0507] finish_reason=stop completion_tokens=38
+2026-03-25 08:35:31,678 - INFO - Saved result for clerk_guide_0507
+2026-03-25 08:35:33,204 - INFO - Extracted 35 frame(s) from input_videos/isaacsim/guide/IMG_0522/clerk.mp4
+2026-03-25 08:35:34,990 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:34,991 - INFO - [clerk_guide_0522] finish_reason=stop completion_tokens=28
+2026-03-25 08:35:34,993 - INFO - Saved result for clerk_guide_0522
+2026-03-25 08:35:36,037 - INFO - Extracted 28 frame(s) from input_videos/isaacsim/guide/IMG_0523/clerk.mp4
+2026-03-25 08:35:37,511 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:37,512 - INFO - [clerk_guide_0523] finish_reason=stop completion_tokens=53
+2026-03-25 08:35:37,513 - INFO - Saved result for clerk_guide_0523
+2026-03-25 08:35:38,350 - INFO - Extracted 21 frame(s) from input_videos/isaacsim/guide/IMG_0524/clerk.mp4
+2026-03-25 08:35:39,559 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:39,560 - INFO - [clerk_guide_0524] finish_reason=stop completion_tokens=27
+2026-03-25 08:35:39,561 - INFO - Saved result for clerk_guide_0524
+2026-03-25 08:35:40,651 - INFO - Extracted 29 frame(s) from input_videos/isaacsim/guide/IMG_0525/clerk.mp4
+2026-03-25 08:35:42,222 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:42,222 - INFO - [clerk_guide_0525] finish_reason=stop completion_tokens=21
+2026-03-25 08:35:42,223 - INFO - Saved result for clerk_guide_0525
+2026-03-25 08:35:43,079 - INFO - Extracted 22 frame(s) from input_videos/isaacsim/guide/IMG_0526/clerk.mp4
+2026-03-25 08:35:44,373 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:44,374 - INFO - [clerk_guide_0526] finish_reason=stop completion_tokens=39
+2026-03-25 08:35:44,375 - INFO - Saved result for clerk_guide_0526
+2026-03-25 08:35:45,088 - INFO - Extracted 19 frame(s) from input_videos/isaacsim/lookaround/IMG_0516/clerk.mp4
+2026-03-25 08:35:46,178 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:46,179 - INFO - [clerk_lookaround_0516] finish_reason=stop completion_tokens=32
+2026-03-25 08:35:46,180 - INFO - Saved result for clerk_lookaround_0516
+2026-03-25 08:35:46,954 - INFO - Extracted 23 frame(s) from input_videos/isaacsim/lookaround/IMG_0517/clerk.mp4
+2026-03-25 08:35:48,258 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:48,260 - INFO - [clerk_lookaround_0517] finish_reason=stop completion_tokens=39
+2026-03-25 08:35:48,261 - INFO - Saved result for clerk_lookaround_0517
+2026-03-25 08:35:49,027 - INFO - Extracted 22 frame(s) from input_videos/isaacsim/lookaround/IMG_0518/clerk.mp4
+2026-03-25 08:35:50,254 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:50,255 - INFO - [clerk_lookaround_0518] finish_reason=stop completion_tokens=32
+2026-03-25 08:35:50,256 - INFO - Saved result for clerk_lookaround_0518
+2026-03-25 08:35:51,106 - INFO - Extracted 24 frame(s) from input_videos/isaacsim/lookaround/IMG_0519/clerk.mp4
+2026-03-25 08:35:52,360 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:52,361 - INFO - [clerk_lookaround_0519] finish_reason=stop completion_tokens=19
+2026-03-25 08:35:52,362 - INFO - Saved result for clerk_lookaround_0519
+2026-03-25 08:35:53,188 - INFO - Extracted 24 frame(s) from input_videos/isaacsim/lookaround/IMG_0520/clerk.mp4
+2026-03-25 08:35:54,616 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:54,617 - INFO - [clerk_lookaround_0520] finish_reason=stop completion_tokens=25
+2026-03-25 08:35:54,618 - INFO - Saved result for clerk_lookaround_0520
+2026-03-25 08:35:55,604 - INFO - Extracted 28 frame(s) from input_videos/isaacsim/lookaround/IMG_0521/clerk.mp4
+2026-03-25 08:35:56,969 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:56,971 - INFO - [clerk_lookaround_0521] finish_reason=stop completion_tokens=11
+2026-03-25 08:35:56,973 - INFO - Saved result for clerk_lookaround_0521
+2026-03-25 08:35:57,799 - INFO - Extracted 19 frame(s) from input_videos/isaacsim/wavehands/IMG_0504/clerk.mp4
+2026-03-25 08:35:58,925 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:35:58,927 - INFO - [clerk_wavehands_0504] finish_reason=stop completion_tokens=39
+2026-03-25 08:35:58,928 - INFO - Saved result for clerk_wavehands_0504
+2026-03-25 08:35:59,488 - INFO - Extracted 15 frame(s) from input_videos/isaacsim/wavehands/IMG_0506/clerk.mp4
+2026-03-25 08:36:00,551 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:36:00,552 - INFO - [clerk_wavehands_0506] finish_reason=stop completion_tokens=54
+2026-03-25 08:36:00,552 - INFO - Saved result for clerk_wavehands_0506
+2026-03-25 08:36:01,199 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/wavehands/IMG_0511/clerk.mp4
+2026-03-25 08:36:02,251 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:36:02,252 - INFO - [clerk_wavehands_0511] finish_reason=stop completion_tokens=61
+2026-03-25 08:36:02,252 - INFO - Saved result for clerk_wavehands_0511
+2026-03-25 08:36:02,903 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/wavehands/IMG_0512/clerk.mp4
+2026-03-25 08:36:03,991 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:36:03,992 - INFO - [clerk_wavehands_0512] finish_reason=stop completion_tokens=22
+2026-03-25 08:36:03,993 - INFO - Saved result for clerk_wavehands_0512
+2026-03-25 08:36:04,637 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/wavehands/IMG_0513/clerk.mp4
+2026-03-25 08:36:05,662 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:36:05,663 - INFO - [clerk_wavehands_0513] finish_reason=stop completion_tokens=49
+2026-03-25 08:36:05,665 - INFO - Saved result for clerk_wavehands_0513
+2026-03-25 08:36:06,246 - INFO - Extracted 15 frame(s) from input_videos/isaacsim/wavehands/IMG_0514/clerk.mp4
+2026-03-25 08:36:07,130 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:36:07,131 - INFO - [clerk_wavehands_0514] finish_reason=stop completion_tokens=24
+2026-03-25 08:36:07,132 - INFO - Saved result for clerk_wavehands_0514
+2026-03-25 08:36:07,586 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/wavehands/IMG_0515/clerk.mp4
+2026-03-25 08:36:08,483 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:36:08,483 - INFO - [clerk_wavehands_0515] finish_reason=stop completion_tokens=42
+2026-03-25 08:36:08,484 - INFO - Saved result for clerk_wavehands_0515
+2026-03-25 08:36:08,484 - INFO - Successfully processed 26/26 video(s)

@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_wavehands_0511",
+  "video_path": "input_videos/isaacsim/wavehands/IMG_0511/clerk.mp4",
+  "caption": "As the clerk, I greet the customer warmly, smiling and nodding to welcome them to our café. My posture is welcoming, and I maintain eye contact, signaling attentiveness and friendliness. I anticipate the customer’s needs and prepare to assist them with their order or any inquiries they may have.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

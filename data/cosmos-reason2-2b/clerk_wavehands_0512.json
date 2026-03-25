@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_wavehands_0512",
+  "video_path": "input_videos/isaacsim/wavehands/IMG_0512/clerk.mp4",
+  "caption": "The clerk acknowledges the customer’s request to receive a receipt, preparing to deliver it with courtesy and efficiency.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

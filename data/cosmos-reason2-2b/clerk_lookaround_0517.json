@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_lookaround_0517",
+  "video_path": "input_videos/isaacsim/lookaround/IMG_0517/clerk.mp4",
+  "caption": "The cafe clerk is seated at a table with a customer, who is seated across from them, in a minimalist cafe setting with white walls, wooden floors, and a bright, modern ambiance.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

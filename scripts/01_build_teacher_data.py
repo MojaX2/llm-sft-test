@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Generate thinking and caption for each video using GPT-5.4.
+Generate caption for each video using GPT-5.4.
 
 Reads video_manifest.csv, extracts frames, encodes as base64, 
-and calls OpenAI API to generate teacher data (thinking + caption).
+and calls OpenAI API to generate teacher data (caption only).
 
 Output:
   - Individual JSON files in data/ground_truth/raw/{video_id}.json
@@ -129,16 +129,30 @@ def extract_response_text(message: Any) -> str:
     return ""
 
 
+def clean_caption_text(response_text: str) -> str:
+    """Normalize model output into plain caption text."""
+    text = response_text.strip()
+    if text.startswith("```"):
+        text = text.split("```")[1]
+        if text.startswith("json"):
+            text = text[4:]
+        text = text.strip()
+    # If model returns a labeled block, keep only caption value.
+    if text.lower().startswith("caption:"):
+        text = text.split(":", 1)[1].strip()
+    return text
+
+
 def call_gpt54_api(
     client: OpenAI,
     frames_base64: list[str],
     video_id: str,
     max_retries: int = 3,
-) -> dict[str, str]:
+) -> str:
     """
-    Call GPT-5.4 API with frame images to generate thinking and caption.
-    
-    Returns dict with keys: thinking, caption
+    Call GPT-5.4 API with frame images to generate caption only.
+
+    Returns caption text.
     """
     system_prompt = (
 '''You are a video annotator for first-person cafe clerk perspectives.'''
@@ -147,13 +161,10 @@ def call_gpt54_api(
     user_prompt = (
 '''Analyze this complete first-person video sequence from a CLERK's perspective. The camera wearer (you) is a clerk at a cafe. Other people are customers.
 Task:
-1. In 'thinking': Provide a detailed chronological sequence of visible actions, positions, and objects. Describe your movements as the clerk and the specific behaviors of the customers.
-2. In 'caption': For both the CLERK (you) and the CUSTOMERS, explain the "Intent-Action Pairs" based on the visual evidence.
-   - For the CLERK: What was your objective, and what specific action did you take to achieve it?
-   - For the CUSTOMERS: What did they appear to want/need, and how did they express that through their actions?
-Return valid JSON with these two keys: "thinking" and "caption".
-Keep output concise: thinking <= 4 sentences, caption <= 2 sentences.
-Output raw JSON only (no markdown, no extra text).'''
+Write only one English caption (1-2 sentences) that describes both the clerk intent and the customer intent from visible evidence.
+Do not output JSON.
+Do not output labels.
+Output only the final caption text.'''
 )
     
     # Build message content with images
@@ -176,7 +187,6 @@ Output raw JSON only (no markdown, no extra text).'''
                 ],
                 temperature=0.7,
                 max_completion_tokens=1200,
-                response_format={"type": "json_object"},
             )
 
             choice = response.choices[0]
@@ -194,37 +204,23 @@ Output raw JSON only (no markdown, no extra text).'''
                     f"(finish_reason={choice.finish_reason}, refusal={getattr(choice.message, 'refusal', None)})"
                 )
             
-            # Remove markdown code block formatting if present
-            if response_text.startswith("```"):
-                response_text = response_text.split("```")[1]
-                if response_text.startswith("json"):
-                    response_text = response_text[4:]
-                response_text = response_text.strip()
-            
-            result = json.loads(response_text)
-            
-            # Validate required keys
-            if "thinking" not in result or "caption" not in result:
-                raise ValueError("Missing 'thinking' or 'caption' in response")
-            
-            logger.info(f"Successfully generated thinking and caption for {video_id}")
-            return result
-        
-        except json.JSONDecodeError as e:
-            logger.warning(f"Failed to parse JSON response for {video_id} (attempt {attempt + 1}): {e}")
-            if attempt < max_retries - 1:
-                time.sleep(2 ** attempt)  # Exponential backoff
+            caption = clean_caption_text(response_text)
+            if not caption:
+                raise ValueError("Caption text is empty after normalization")
+
+            logger.info(f"Successfully generated caption for {video_id}")
+            return caption
+
         except Exception as e:
             logger.warning(f"API call failed for {video_id} (attempt {attempt + 1}): {e}")
             if attempt < max_retries - 1:
                 time.sleep(2 ** attempt)
     
-    raise RuntimeError(f"Failed to generate thinking/caption for {video_id} after {max_retries} retries")
+    raise RuntimeError(f"Failed to generate caption for {video_id} after {max_retries} retries")
 
 
 def save_result(
     video_info: dict[str, Any],
-    thinking: str,
     caption: str,
     output_dir: Path,
 ) -> None:
@@ -233,7 +229,6 @@ def save_result(
     result = {
         "video_id": video_id,
         "video_path": video_info["video_path"],
-        "thinking": thinking,
         "caption": caption,
         "language": "en",
     }
@@ -246,7 +241,6 @@ def save_result(
 
 def append_to_jsonl(
     video_info: dict[str, Any],
-    thinking: str,
     caption: str,
     jsonl_path: Path,
 ) -> None:
@@ -254,7 +248,6 @@ def append_to_jsonl(
     result = {
         "video_id": video_info["video_id"],
         "video_path": video_info["video_path"],
-        "thinking": thinking,
         "caption": caption,
         "language": "en",
     }
@@ -300,13 +293,11 @@ def process_video(
         frames_base64 = encode_frames_to_base64(frames_bytes)
         
         # Call API
-        result = call_gpt54_api(client, frames_base64, video_id)
-        thinking = result.get("thinking", "")
-        caption = result.get("caption", "")
+        caption = call_gpt54_api(client, frames_base64, video_id)
         
         # Save results
-        save_result(video_info, thinking, caption, raw_output_dir)
-        append_to_jsonl(video_info, thinking, caption, jsonl_path)
+        save_result(video_info, caption, raw_output_dir)
+        append_to_jsonl(video_info, caption, jsonl_path)
         
         return True
     

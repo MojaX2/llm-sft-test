@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_wavehands_0506",
+  "video_path": "input_videos/isaacsim/wavehands/IMG_0506/clerk.mp4",
+  "caption": "I notice the customer sitting at the table, so I’ll need to keep an eye out for any movement or noise that might disturb them. Meanwhile, I’m going to make sure the table is cleared and ready for service so they can enjoy their meal without interruptions.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

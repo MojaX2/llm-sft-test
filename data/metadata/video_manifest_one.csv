@@ -1,0 +1,2 @@
+video_id,video_path,scenario,viewpoint,primary_actor,other_actor,language_target,split,active
+clerk_cross_0532,input_videos/isaacsim/cross/IMG_0532/clerk.mp4,cross,first_person,clerk,customer,en,test,true

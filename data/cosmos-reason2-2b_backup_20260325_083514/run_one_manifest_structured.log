@@ -1,0 +1,18 @@
+2026-03-25 08:25:49,312 - INFO - Loaded 1 active video(s) from data/metadata/video_manifest_one.csv
+2026-03-25 08:25:49,731 - INFO - Extracted 12 frame(s) from input_videos/isaacsim/cross/IMG_0532/clerk.mp4
+2026-03-25 08:25:50,957 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:25:50,961 - INFO - [clerk_cross_0532] finish_reason=stop completion_tokens=117
+2026-03-25 08:25:50,961 - WARNING - API failed for clerk_cross_0532 (attempt 1): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:25:52,561 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:25:52,563 - INFO - [clerk_cross_0532] finish_reason=stop completion_tokens=124
+2026-03-25 08:25:52,563 - WARNING - API failed for clerk_cross_0532 (attempt 2): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:25:55,084 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:25:55,084 - INFO - [clerk_cross_0532] finish_reason=stop completion_tokens=105
+2026-03-25 08:25:55,084 - WARNING - API failed for clerk_cross_0532 (attempt 3): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:25:59,557 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:25:59,558 - INFO - [clerk_cross_0532] finish_reason=stop completion_tokens=93
+2026-03-25 08:25:59,558 - WARNING - API failed for clerk_cross_0532 (attempt 4): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:26:07,964 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:26:07,965 - INFO - [clerk_cross_0532] finish_reason=stop completion_tokens=76
+2026-03-25 08:26:07,966 - INFO - Saved result for clerk_cross_0532
+2026-03-25 08:26:07,966 - INFO - Successfully processed 1/1 video(s)

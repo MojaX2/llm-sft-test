@@ -1,7 +1,6 @@
 {
   "video_id": "clerk_lookaround_0516",
   "video_path": "input_videos/isaacsim/lookaround/IMG_0516/clerk.mp4",
-  "thinking": "I move forward through a long, bright cafe room toward a yellow rectangular table on the left where a single seated woman waits quietly. As I get closer and angle left, more of the kitchenette becomes visible behind her: blue lower cabinets, sink, pots, kettle, range hood, and a tall off-white refrigerator. The customer remains seated with a calm posture, occasionally shifting her gaze and keeping one hand near the tabletop as if waiting to be served or acknowledged. Near the end, I step up to the table and extend my hand toward the tabletop, appearing to place or point to a small white item in front of her.",
-  "caption": "CLERK: Intent was to approach and serve/assist the seated customer, achieved by walking to her table and reaching out to place or indicate a small item on the table. CUSTOMER: Intent appeared to be waiting for service or an item, expressed by staying seated at the table, watching the clerk approach, and keeping attention on the tabletop.",
+  "caption": "I walk over to the seated customer at the table to check on or take her order, while she waits calmly and looks toward me, appearing ready to speak or place an order.",
   "language": "en"
 }

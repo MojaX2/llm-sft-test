@@ -1,0 +1,121 @@
+2026-03-25 08:13:14,406 - INFO - Loaded 26 active video(s) from data/metadata/video_manifest.csv
+2026-03-25 08:13:15,124 - INFO - Extracted 16 frame(s) from input_videos/isaacsim/cross/IMG_0508/clerk.mp4
+2026-03-25 08:13:16,233 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:13:16,239 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=109
+2026-03-25 08:13:16,239 - WARNING - API failed for clerk_cross_0508 (attempt 1): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:13:17,825 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:13:17,825 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=115
+2026-03-25 08:13:17,825 - WARNING - API failed for clerk_cross_0508 (attempt 2): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:13:20,405 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:13:20,405 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=114
+2026-03-25 08:13:20,405 - WARNING - API failed for clerk_cross_0508 (attempt 3): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:13:25,048 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:13:25,048 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=117
+2026-03-25 08:13:25,048 - WARNING - API failed for clerk_cross_0508 (attempt 4): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:13:33,669 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:13:33,669 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=111
+2026-03-25 08:13:33,669 - WARNING - API failed for clerk_cross_0508 (attempt 5): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:13:50,195 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:13:50,197 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=95
+2026-03-25 08:13:50,197 - WARNING - API failed for clerk_cross_0508 (attempt 6): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:14:22,850 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:14:22,851 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=124
+2026-03-25 08:14:22,851 - WARNING - API failed for clerk_cross_0508 (attempt 7): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:15:27,332 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:15:27,333 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=87
+2026-03-25 08:15:27,333 - WARNING - API failed for clerk_cross_0508 (attempt 8): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:17:35,949 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:17:35,951 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=97
+2026-03-25 08:17:35,951 - WARNING - API failed for clerk_cross_0508 (attempt 9): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:21:52,573 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:21:52,574 - INFO - [clerk_cross_0508] finish_reason=stop completion_tokens=82
+2026-03-25 08:21:52,574 - WARNING - API failed for clerk_cross_0508 (attempt 10): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:21:52,574 - ERROR - Failed to process clerk_cross_0508: Failed for clerk_cross_0508 after 10 retries
+2026-03-25 08:21:53,046 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0527/clerk.mp4
+2026-03-25 08:21:53,980 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:21:53,982 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=68
+2026-03-25 08:21:53,982 - WARNING - API failed for clerk_cross_0527 (attempt 1): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:21:55,541 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:21:55,543 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=113
+2026-03-25 08:21:55,543 - WARNING - API failed for clerk_cross_0527 (attempt 2): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:21:57,977 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:21:57,978 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=81
+2026-03-25 08:21:57,978 - WARNING - API failed for clerk_cross_0527 (attempt 3): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:22:02,604 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:22:02,606 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=116
+2026-03-25 08:22:02,606 - WARNING - API failed for clerk_cross_0527 (attempt 4): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:22:11,100 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:22:11,101 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=86
+2026-03-25 08:22:11,101 - WARNING - API failed for clerk_cross_0527 (attempt 5): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:22:27,666 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:22:27,667 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=89
+2026-03-25 08:22:27,667 - WARNING - API failed for clerk_cross_0527 (attempt 6): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:23:00,255 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:23:00,256 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=101
+2026-03-25 08:23:00,257 - WARNING - API failed for clerk_cross_0527 (attempt 7): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:24:04,744 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:24:04,745 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=90
+2026-03-25 08:24:04,745 - WARNING - API failed for clerk_cross_0527 (attempt 8): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:26:13,184 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:26:13,184 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=85
+2026-03-25 08:26:13,184 - WARNING - API failed for clerk_cross_0527 (attempt 9): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:30:29,795 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:30:29,797 - INFO - [clerk_cross_0527] finish_reason=stop completion_tokens=97
+2026-03-25 08:30:29,797 - WARNING - API failed for clerk_cross_0527 (attempt 10): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:30:29,797 - ERROR - Failed to process clerk_cross_0527: Failed for clerk_cross_0527 after 10 retries
+2026-03-25 08:30:30,248 - INFO - Extracted 13 frame(s) from input_videos/isaacsim/cross/IMG_0528/clerk.mp4
+2026-03-25 08:30:36,146 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:30:36,148 - INFO - [clerk_cross_0528] finish_reason=length completion_tokens=1200
+2026-03-25 08:30:36,148 - WARNING - API failed for clerk_cross_0528 (attempt 1): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:30:37,625 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:30:37,627 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=97
+2026-03-25 08:30:37,627 - WARNING - API failed for clerk_cross_0528 (attempt 2): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:30:40,156 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:30:40,158 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=107
+2026-03-25 08:30:40,158 - WARNING - API failed for clerk_cross_0528 (attempt 3): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:30:44,746 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:30:44,748 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=106
+2026-03-25 08:30:44,748 - WARNING - API failed for clerk_cross_0528 (attempt 4): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:30:53,179 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:30:53,180 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=80
+2026-03-25 08:30:53,181 - WARNING - API failed for clerk_cross_0528 (attempt 5): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:31:10,011 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:31:10,013 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=151
+2026-03-25 08:31:10,013 - WARNING - API failed for clerk_cross_0528 (attempt 6): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:31:42,602 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:31:42,604 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=95
+2026-03-25 08:31:42,604 - WARNING - API failed for clerk_cross_0528 (attempt 7): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:32:47,139 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:32:47,141 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=104
+2026-03-25 08:32:47,141 - WARNING - API failed for clerk_cross_0528 (attempt 8): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:34:55,738 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:34:55,739 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=115
+2026-03-25 08:34:55,739 - WARNING - API failed for clerk_cross_0528 (attempt 9): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:39:12,451 - INFO - HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 08:39:12,452 - INFO - [clerk_cross_0528] finish_reason=stop completion_tokens=120
+2026-03-25 08:39:12,452 - WARNING - API failed for clerk_cross_0528 (attempt 10): Expecting value: line 1 column 1 (char 0)
+2026-03-25 08:39:12,452 - ERROR - Failed to process clerk_cross_0528: Failed for clerk_cross_0528 after 10 retries
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_cross_0529 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_cross_0530 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_cross_0531 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_cross_0532 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_guide_0507 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_guide_0522 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_guide_0523 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_guide_0524 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_guide_0525 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_guide_0526 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_lookaround_0516 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_lookaround_0517 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_lookaround_0518 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_lookaround_0519 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_lookaround_0520 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_lookaround_0521 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_wavehands_0504 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_wavehands_0506 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_wavehands_0511 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_wavehands_0512 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_wavehands_0513 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_wavehands_0514 (already processed)
+2026-03-25 08:39:12,452 - INFO - Skipping clerk_wavehands_0515 (already processed)
+2026-03-25 08:39:12,452 - INFO - Successfully processed 23/26 video(s)

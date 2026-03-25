@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_lookaround_0518",
+  "video_path": "input_videos/isaacsim/lookaround/IMG_0518/clerk.mp4",
+  "caption": "Approaching the customer seated at the table, I prepare to serve them, mindful of the surrounding cafe environment and ensuring a respectful distance while acknowledging their presence.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_guide_0525",
+  "video_path": "input_videos/isaacsim/guide/IMG_0525/clerk.mp4",
+  "caption": "Customer leans against the wall, appearing weary or contemplative. Clerk stands nearby, observing without intervention.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

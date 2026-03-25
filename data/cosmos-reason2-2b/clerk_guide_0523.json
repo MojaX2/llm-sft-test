@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_guide_0523",
+  "video_path": "input_videos/isaacsim/guide/IMG_0523/clerk.mp4",
+  "caption": "Entering the cafe, I greet the customer warmly and prepare to assist them with their order. Upon seeing the customer’s arrival, I acknowledge their presence courteously and await their request. I remain attentive to their needs, ready to serve them promptly and courteously.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

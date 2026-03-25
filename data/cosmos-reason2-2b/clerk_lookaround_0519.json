@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_lookaround_0519",
+  "video_path": "input_videos/isaacsim/lookaround/IMG_0519/clerk.mp4",
+  "caption": "Customer sits at the table, facing the clerk, while the clerk observes from a distance.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

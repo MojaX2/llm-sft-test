@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_cross_0530",
+  "video_path": "input_videos/isaacsim/cross/IMG_0530/clerk.mp4",
+  "caption": "The cafe clerk stands near the dining table, observing the customer seated at it. The customer appears relaxed and engaged in conversation, possibly ordering or requesting something.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

@@ -1,7 +1,6 @@
 {
   "video_id": "clerk_wavehands_0513",
   "video_path": "input_videos/isaacsim/wavehands/IMG_0513/clerk.mp4",
-  "thinking": "I move down a narrow room toward a yellow table on the left where a single female customer is seated; the background reveals a kitchenette with blue lower cabinets, a sink, pots, and a tall refrigerator. As I approach and angle left around the table, the customer remains seated facing me, briefly raising a hand near her face and then resting with her hands lower, watching quietly. I continue closing the distance to the near edge of the table, bringing the tabletop and empty chairs into the foreground. At the end, my hands come forward over the table as if preparing to place, present, or discuss something with the seated customer.",
-  "caption": "CLERK: Intent to attend to the seated customer at the table; I walked over from the room entrance, positioned myself beside the table, and extended my hands toward the tabletop to engage or serve. CUSTOMER: Intent to receive attention/service while waiting; she stayed seated at the table, looked toward me, and made a small hand-to-face gesture before remaining still.",
+  "caption": "I walk over to a seated customer at a table, apparently to check on or take her order. The customer stays seated, looks toward me, and appears to be waiting for service.",
   "language": "en"
 }

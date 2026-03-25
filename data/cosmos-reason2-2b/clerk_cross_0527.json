@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_cross_0527",
+  "video_path": "input_videos/isaacsim/cross/IMG_0527/clerk.mp4",
+  "caption": "I notice the customer sitting at the table, so I am keeping my distance to avoid打扰them.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

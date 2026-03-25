@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_lookaround_0516",
+  "video_path": "input_videos/isaacsim/lookaround/IMG_0516/clerk.mp4",
+  "caption": "I notice a customer seated at a table, so I must maintain a respectful distance while keeping an eye on their movements and any potential requests they may have.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

@@ -1,0 +1,8 @@
+{
+  "video_id": "clerk_cross_0532",
+  "video_path": "input_videos/isaacsim/cross/IMG_0532/clerk.mp4",
+  "thinking": "The cafe clerk stands beside the table, preparing to assist the customer. The customer is seated at the table, facing away from the clerk. The clerk’s posture suggests readiness to engage, possibly to inquire about orders or provide service.",
+  "caption": "The cafe clerk faces the seated customer, who appears to be ordering or requesting assistance. The clerk is poised to respond, anticipating the next step in the service process.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

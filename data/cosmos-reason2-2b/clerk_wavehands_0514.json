@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_wavehands_0514",
+  "video_path": "input_videos/isaacsim/wavehands/IMG_0514/clerk.mp4",
+  "caption": "Approaching the table where Customer 1 is seated, I prepare to greet them politely and inquire about their needs.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

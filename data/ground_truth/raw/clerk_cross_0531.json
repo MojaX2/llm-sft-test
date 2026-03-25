@@ -1,7 +1,6 @@
 {
   "video_id": "clerk_cross_0531",
   "video_path": "input_videos/isaacsim/cross/IMG_0531/clerk.mp4",
-  "thinking": "I face a yellow dining table in a cafe-like room with wooden flooring, chairs, a counter with pots and kettle, a sink, a refrigerator, and a large partition wall. A female customer seated at the far side of the table leans forward, pushes up from the chair, and rises to standing beside the table while looking toward me. I then move to the right, passing close by her and the chair, and continue walking toward the open space and partition, shifting my view away from the customer. The customer remains near the table as I head toward the back/prep area.",
-  "caption": "CLERK: Intent to leave the customer area and go toward the back/prep side; action: turned right and walked past the table toward the partition and kitchen fixtures. CUSTOMER: Intent to get attention or prepare to engage/leave; action: leaned forward, stood up from the chair, and faced toward the clerk.",
+  "caption": "I approach a seated customer at the table as if checking on or taking their order, and the customer rises from the chair and turns toward me, appearing ready to speak or respond.",
   "language": "en"
 }

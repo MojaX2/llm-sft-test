@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_wavehands_0504",
+  "video_path": "input_videos/isaacsim/wavehands/IMG_0504/clerk.mp4",
+  "caption": "I greet the customer warmly, extending my hands in a welcoming gesture as I stand at the entrance of the café. The customer responds positively, acknowledging my greeting with a smile and a nod.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

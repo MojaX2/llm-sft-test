@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_wavehands_0513",
+  "video_path": "input_videos/isaacsim/wavehands/IMG_0513/clerk.mp4",
+  "caption": "I greet the customer politely as I move toward them, acknowledging their presence warmly and courteously. I am aware of my surroundings and am mindful of the dining area’s layout, ensuring I navigate safely while maintaining a respectful distance from other patrons.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}

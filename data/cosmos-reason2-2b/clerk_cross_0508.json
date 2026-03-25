@@ -1,0 +1,7 @@
+{
+  "video_id": "clerk_cross_0508",
+  "video_path": "input_videos/isaacsim/cross/IMG_0508/clerk.mp4",
+  "caption": "Approached by a customer at the cafe, I initiate a greeting and prepare to assist them. Seeing the customer’s hand movements, I recognize they’re requesting a beverage and promptly move to retrieve the requested item from the kitchen area.",
+  "language": "en",
+  "model": "nvidia/Cosmos-Reason2-2B"
+}
