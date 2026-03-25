@@ -1,0 +1,15 @@
+{
+  "total": 1,
+  "wins": {
+    "gpt54": 1,
+    "cosmos": 0,
+    "tie": 0
+  },
+  "model": "gpt-5.4",
+  "sampling_hz": 1.0,
+  "max_frames": 20,
+  "resize": [
+    640,
+    480
+  ]
+}

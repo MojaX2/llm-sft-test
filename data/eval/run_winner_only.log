@@ -1,0 +1,56 @@
+2026-03-25 10:35:49,460 - INFO - Loaded 26 active videos
+2026-03-25 10:35:52,189 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:35:52,195 - INFO - clerk_cross_0508 winner=gpt54
+2026-03-25 10:35:54,060 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:35:54,060 - INFO - clerk_cross_0527 winner=gpt54
+2026-03-25 10:35:56,078 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:35:56,079 - INFO - clerk_cross_0528 winner=gpt54
+2026-03-25 10:35:57,994 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:35:57,995 - INFO - clerk_cross_0529 winner=gpt54
+2026-03-25 10:35:59,779 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:35:59,779 - INFO - clerk_cross_0530 winner=gpt54
+2026-03-25 10:36:01,803 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:01,807 - INFO - clerk_cross_0531 winner=gpt54
+2026-03-25 10:36:03,908 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:03,910 - INFO - clerk_cross_0532 winner=gpt54
+2026-03-25 10:36:07,983 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:07,984 - INFO - clerk_guide_0507 winner=gpt54
+2026-03-25 10:36:11,928 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:11,930 - INFO - clerk_guide_0522 winner=gpt54
+2026-03-25 10:36:14,829 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:14,829 - INFO - clerk_guide_0523 winner=gpt54
+2026-03-25 10:36:17,297 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:17,298 - INFO - clerk_guide_0524 winner=gpt54
+2026-03-25 10:36:20,435 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:20,435 - INFO - clerk_guide_0525 winner=gpt54
+2026-03-25 10:36:23,076 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:23,077 - INFO - clerk_guide_0526 winner=gpt54
+2026-03-25 10:36:25,224 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:25,224 - INFO - clerk_lookaround_0516 winner=gpt54
+2026-03-25 10:36:27,418 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:27,420 - INFO - clerk_lookaround_0517 winner=gpt54
+2026-03-25 10:36:29,933 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:29,935 - INFO - clerk_lookaround_0518 winner=gpt54
+2026-03-25 10:36:32,676 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:32,678 - INFO - clerk_lookaround_0519 winner=gpt54
+2026-03-25 10:36:35,095 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:35,095 - INFO - clerk_lookaround_0520 winner=gpt54
+2026-03-25 10:36:37,731 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:37,731 - INFO - clerk_lookaround_0521 winner=gpt54
+2026-03-25 10:36:39,833 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:39,833 - INFO - clerk_wavehands_0504 winner=gpt54
+2026-03-25 10:36:41,391 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:41,393 - INFO - clerk_wavehands_0506 winner=gpt54
+2026-03-25 10:36:43,456 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:43,457 - INFO - clerk_wavehands_0511 winner=gpt54
+2026-03-25 10:36:45,323 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:45,324 - INFO - clerk_wavehands_0512 winner=gpt54
+2026-03-25 10:36:47,628 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:47,629 - INFO - clerk_wavehands_0513 winner=gpt54
+2026-03-25 10:36:49,597 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:49,599 - INFO - clerk_wavehands_0514 winner=gpt54
+2026-03-25 10:36:51,167 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-03-25 10:36:51,168 - INFO - clerk_wavehands_0515 winner=gpt54
+2026-03-25 10:36:51,169 - INFO - Done. total=26 gpt54=26 cosmos=0 tie=0
+2026-03-25 10:36:51,169 - INFO - Saved: data/eval/winner_only.jsonl
+2026-03-25 10:36:51,169 - INFO - Saved: data/eval/winner_only_summary.json
